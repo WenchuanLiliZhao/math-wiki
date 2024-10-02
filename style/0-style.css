@@ -146,6 +146,12 @@ html {
       margin-right: auto;
       box-sizing: content-box; }
 
+h1 a {
+  pointer-events: none; }
+
+h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  color: royalblue; }
+
 h1 {
   font-size: 48px;
   font-weight: bold;
@@ -161,7 +167,7 @@ h2 {
   line-height: 1.25; }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -175,8 +181,11 @@ li,
 figcaption {
   line-height: 1.75; }
 
-p, hr {
+p {
   margin: 0.5em 0; }
+
+hr {
+  margin: 1em 0; }
 
 hr {
   border-top: 1px dashed var(--text-color--main); }
@@ -192,3 +201,26 @@ b {
 ol li {
   list-style: decimal;
   margin-left: 2em; }
+
+body {
+  counter-reset: h2counter; }
+
+h2 {
+  counter-increment: h2counter;
+  counter-reset: h3counter; }
+
+h3 {
+  counter-increment: h3counter;
+  counter-reset: h4counter; }
+
+h4 {
+  counter-increment: h4counter; }
+
+h2 a::before {
+  content: counter(h2counter) ". "; }
+
+h3 a::before {
+  content: counter(h2counter) "." counter(h3counter) ". "; }
+
+h4 a::before {
+  content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ". "; }
