@@ -1,31 +1,17 @@
-# The Axiom of Union
+# The Redundancy of the Axiom of Union in MK
 
+**Theorem (The Axiom of Union).** If $X$ is a set, then
+$$
+\exists U\; (\mathfrak{M}(U) \land \; \forall x \; (x \in U \Leftrightarrow \exists S \; (S \in X \land x \in S) )),
+$$
+where $\mathfrak{M}(U)$ denotes “$U$ is a set.” In the union notation, that is:
+$$
+\exists U\; \left(\mathfrak{M}(U) \land U = \bigcup X\right).
+$$
 
+**Proof.** Let $X$ be a set, and let $U = \bigcup X$. We are required to show that $U$ is a set.
 
-
-## The dependency of the axiom of union in MK
-
-
-
-
-
-### Some Lemmas for proving the axiom of union
-
-#### Lemma: supremums of ordinal numbers
-
-Let 
-
-#### Lemma: relational choice (AGC)
-
-Let $X$ and $Y$ be classes, and let $R \subseteq X \times Y$ be a relation. Then, there is a function $f$ mapping from $\mathrm{Dom}(R)$ to $Y$.
-
-**Proof.** By the axiom of global choice, there is a function $c: R[X] \to \bigcup R[X]$ such that $c(x) \in x$ for any $x \in R[X]$.
-
-$\blacksquare$
-
-### A proof of the axiom of union via the axiom of choice and the axiom of replacement
-
-For any set $x$, let $f_x : x \to H(x)$ be an injection.
+For any set $x$, let $f_x : x \to H(x)$ be an injection, where $H(x)$ denotes for the Hartogs number of $x$.
 
 Let $X$ be a set, and let $U = \bigcup X$. Let $Y = \sup \{ H(x) \mid x \in H \}$. (Note that $Y$ is an ordinal number.) 
 
@@ -33,7 +19,7 @@ Let $x \in X$ and $t \in x$. We have $f_x(t) \in H(x)$. Since the ordinal number
 $$
 g := \left\{ \left( \underline{(x,t)}, \underline{(f_X(x), f_x(t))} \right) \mid x \in X \land t \in x \right\},
 $$
-then $g$ is a function which is a subclass of $(X \times U) \times (H(X) \times Y)$. Since, for any $x \in X$, $f_X$ and $f_x$ are both injective, $g$ is injective. $\Box$
+then $g$ is a function which is a subclass of $(X \times U) \times (H(X) \times Y)$. Since, for any $x \in X$, $f_X$ and $f_x$ are both injective, $g$ is injective.
 
 Let $h \subseteq (X \times U) \times U$ be a projection, i.e.,
 $$
@@ -49,8 +35,6 @@ $$
 Since $H(X) \times Y$ is a set, by the axiom of replacement, the image $U$ is a set.
 
 $\blacksquare$
-
-## Formulations without the Axiom of Union
 
 
 

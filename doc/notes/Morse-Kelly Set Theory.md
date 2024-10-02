@@ -106,7 +106,7 @@ In the context of well-founded relations, the axiom of foundation states that ev
 
 The axiom of foundation is a relatively strong axiom that does not need to be invoked in many case. For example, in the set-theoretic model of the natural numbers $\mathbb{N}$, the axiom is redundant since the structure of $\mathbb{N}$ inherently satisfies well-foundedness due to its construction.
 
-However, if the axiom of foundation is assumed in the universal class $\mathscr{U}$, it can be proven that the entire class $\mathscr{U}$ can be constructed starting from the empty set $\emptyset$. (See [[Von Neumann Universe]])
+However, if the axiom of foundation is assumed in the universal class $\mathscr{U}$, it can be proven that the entire class $\mathscr{U}$ can be constructed starting from the empty set $\emptyset$. (See [[Von Neumann Universe|Von Neumann Universe]])
 
 
 ### The axiom of power set
@@ -157,7 +157,7 @@ $$
 s: \mathscr{U} \setminus \{\emptyset\} \to \mathscr{U}, \quad x \mapsto x \cup \{x\}
 $$
 
-(See [[The Set Theoretic Definition of Natural Numbers]].)
+(See [[The Set Theoretic Definition of Natural Numbers|The Set Theoretic Definition of Natural Numbers]].)
 
 ### The axiom of replacement
 
@@ -169,4 +169,4 @@ For any class $C$, there exists a function $f: C \to \bigcup C$ such that $f(x) 
 
 <hr>
 
-The axiom of union in ZFC states that: if $X$ is a set, then $\bigcup X$ is a set. This is redundant in MK since it can be derived from the axiom of replacement and global choice. (See [[The Axiom of Union]].)
+The axiom of union in ZFC states that: if $X$ is a set, then $\bigcup X$ is a set. This is redundant in MK since it can be derived from the axiom of replacement and global choice. (See [[The Redundancy of the Axiom of Union in MK|The Redundancy of the Axiom of Union in MK]].)
