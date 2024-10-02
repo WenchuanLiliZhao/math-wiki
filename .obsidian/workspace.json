@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "doc/notes/The Redundancy of the Axiom of Union in MK.md",
+                "file": "doc/tocs/TOC of Axiomatic Set Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "doc/notes/The Redundancy of the Axiom of Union in MK.md",
+                "file": "doc/tocs/TOC of Axiomatic Set Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "doc/notes/The Redundancy of the Axiom of Union in MK.md"
+                "file": "doc/tocs/TOC of Axiomatic Set Theory.md"
               }
             }
           }
@@ -177,10 +177,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "582978cdcbd5f50d",
+  "active": "623514ee4c0bbca3",
   "lastOpenFiles": [
-    "doc/notes/Morse-Kelly Set Theory.md",
     "doc/notes/The Redundancy of the Axiom of Union in MK.md",
+    "doc/notes/Morse-Kelly Set Theory.md",
     "doc/tocs/TOC of Axiomatic Set Theory.md",
     "doc/notes/Von Neumann Universe.md",
     "_redirects",
