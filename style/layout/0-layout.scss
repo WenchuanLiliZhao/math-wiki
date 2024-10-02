@@ -1,0 +1,120 @@
+.sidebar, .sidebar-toggle {
+  display: none;
+}
+
+
+:root {
+  --content-max-width: 1100px;
+  --inline-block-max-width: 800px;
+  --content-padding: 40px;
+  --content-padding--outer: 40px;
+  --content-border: 2px solid var(--text-color--main);
+  
+
+  @media only screen and (max-width: 720px) {
+    --content-padding: 24px;
+    --content-padding--outer: 24px;
+  }
+
+  @media only screen and (max-width: 640px) {
+    --content-padding: 24px;
+    --content-padding--outer: 0;
+    --content-border: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  box-sizing: content-box;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding-left: var(--content-padding--outer);
+  padding-right: var(--content-padding--outer);
+
+  position: relative;
+
+  .markdown-section {
+    width: 100%;
+    padding: 120px 0;
+    margin: 0 auto;
+
+    margin-top: 80px;
+
+    border: var(--content-border);
+    padding-left: var(--content-padding);
+    padding-right: var(--content-padding);
+
+    & > * {
+      max-width: var(--inline-block-max-width);
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: content-box;
+    }
+  }
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+p {
+  a {
+    color: royalblue;
+  }
+}
+
+p,
+li,
+figcaption {
+  line-height: 1.75;
+}
+
+p, hr {
+  margin: 0.5em 0;
+}
+
+hr {
+  border-top: 1px dashed var(--text-color--main);
+}
+
+ol,
+ul {
+  margin: 1em 0;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+ol {
+  li {
+    list-style: decimal;
+    margin-left: 2em;
+  }
+}
+
+

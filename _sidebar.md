@@ -1,0 +1,4 @@
+- Foundations of the Website
+	- [First-Order Logic with Equality](doc/notes/First-Order%20Logic%20Axiomatizations.md)
+	- [Morse-Kelly Set Theory](doc/notes/Morse-Kelly%20Set%20Theory.md)
+- 

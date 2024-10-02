@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "cabc5f2ac8dd113b",
+    "type": "split",
+    "children": [
+      {
+        "id": "435d6e66ba665ebf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "623514ee4c0bbca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/notes/Morse-Kelly Set Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6c9d269ceee0f05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/notes/First-Order Logic Axiomatizations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0fada766c15319d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1eeac191f1c0c30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296b5346cb3728af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68b8034bed802cd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "447ebdb5778e5673",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39d37e90dc09fabb",
+    "type": "split",
+    "children": [
+      {
+        "id": "00d72f85f8ac941b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb49d06fc5e95bcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "doc/notes/Morse-Kelly Set Theory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da28810f56290f15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "doc/notes/Morse-Kelly Set Theory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "990f2c178931ad53",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "98c15cac8705207d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "doc/notes/Morse-Kelly Set Theory.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "623514ee4c0bbca3",
+  "lastOpenFiles": [
+    "doc/notes/First-Order Logic Axiomatizations.md",
+    "doc/notes/Morse-Kelly Set Theory.md",
+    "doc/notes/The Axiom of Union.md",
+    "doc/notes/Limitation of size.md",
+    "doc/tocs/TOC of the Elementary Set Theory.md",
+    "doc/tocs/TOC of Axiomatic Set Theory.md",
+    "doc/notes/The Set Theoretic Definition of Natural Numbers.md",
+    "doc/notes/The Set Theoretic Definition of Real Numbers.md",
+    "doc/notes/Relations and Functions.md",
+    "doc/notes/Classes, Sets and Elements.md",
+    "doc/notes/Axiom Schema of Class Comprehension.md",
+    "doc/notes/Cartesian Products.md",
+    "doc/notes/Class Operations.md",
+    "doc/notes/The Elementary Logic.md",
+    "doc/notes/White House Dialogue (zh).md",
+    "doc/tocs",
+    "doc/notes",
+    "tocs",
+    "Home.md",
+    "doc/notes/The Well-Ordering Theorem, Zorn’s Lemma and the Axiom of Choice.md",
+    "README.md",
+    "doc/pages/doc-notes-first-order-logic-axiomatizations-first-order-logic-axiomatizations.md",
+    "scripts/title.js",
+    "notes/First-Order Logic with Equality.md",
+    "pages/Home.md",
+    "doc/notes/Infinte Classes.md",
+    "doc/notes/Ordinal Numbers.md",
+    "doc/notes/Schröder–Bernstein Theorem.md",
+    "pages",
+    "notes/Tha Axiom Schema of Specification.md",
+    "doc/notes",
+    "doc",
+    "notes/doc",
+    "style/0-style.scss",
+    "style"
+  ]
+}

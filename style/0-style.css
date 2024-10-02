@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  background-size: cover;
+  box-sizing: border-box;
+  font-size: inherit;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  color: inherit;
+  position: relative; }
+
+img {
+  max-width: 100%; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+img {
+  vertical-align: middle; }
+
+#USE_CHAT_GPT_AI_ROOT,
+#USE_CHAT_GPT_AI_ROOT_Context_Menu,
+#MAXAI_GLOBAL_VIDEO_POPUP_CONTAINER_ID,
+#USE_CHAT_GPT_AI_ROOT_Minimize_Container,
+#MAXAI_SNACKBAR_CONTAINER {
+  display: none; }
+
+hr {
+  outline: none;
+  box-shadow: none;
+  border: none; }
+
+* {
+  background-size: cover; }
+
+img {
+  background-color: #fafafa; }
+
+:root {
+  --text-color--main: #333333;
+  --text-color--main-trans: rgba(0, 0, 0, 0.8); }
+
+:root {
+  --ff-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  --ff-serif: Georgia, Cambria, "Times New Roman", Times, serif; }
+
+html, body {
+  font-family: var(--ff-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color--main); }
+
+.katex {
+  font-size: 1.13em !important; }
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+.sidebar, .sidebar-toggle {
+  display: none; }
+
+:root {
+  --content-max-width: 1100px;
+  --inline-block-max-width: 800px;
+  --content-padding: 40px;
+  --content-padding--outer: 40px;
+  --content-border: 2px solid var(--text-color--main); }
+  @media only screen and (max-width: 720px) {
+    :root {
+      --content-padding: 24px;
+      --content-padding--outer: 24px; } }
+  @media only screen and (max-width: 640px) {
+    :root {
+      --content-padding: 24px;
+      --content-padding--outer: 0;
+      --content-border: none; } }
+
+html {
+  scroll-behavior: smooth; }
+
+.content {
+  box-sizing: content-box;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding-left: var(--content-padding--outer);
+  padding-right: var(--content-padding--outer);
+  position: relative; }
+  .content .markdown-section {
+    width: 100%;
+    padding: 120px 0;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: var(--content-border);
+    padding-left: var(--content-padding);
+    padding-right: var(--content-padding); }
+    .content .markdown-section > * {
+      max-width: var(--inline-block-max-width);
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: content-box; }
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  line-height: 1.25;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.25; }
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.5; }
+
+p a {
+  color: royalblue; }
+
+p,
+li,
+figcaption {
+  line-height: 1.75; }
+
+p, hr {
+  margin: 0.5em 0; }
+
+hr {
+  border-top: 1px dashed var(--text-color--main); }
+
+ol,
+ul {
+  margin: 1em 0; }
+
+strong,
+b {
+  font-weight: bold; }
+
+ol li {
+  list-style: decimal;
+  margin-left: 2em; }

@@ -1,0 +1,11 @@
+{
+  "showInlineTitle": false,
+  "newFileLocation": "current",
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "autoPairMarkdown": true,
+  "rightToLeft": false,
+  "autoPairBrackets": true,
+  "newLinkFormat": "relative"
+}
