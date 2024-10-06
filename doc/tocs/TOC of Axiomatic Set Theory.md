@@ -1,21 +1,21 @@
-- ✏️ [[../notes/First-Order Logic Axiomatizations|First-Order Logic Axiomatizations]]
+- ☁️ [[../notes/First-Order Logic Axiomatizations|First-Order Logic Axiomatizations]]
 - [[../notes/Morse-Kelly Set Theory|Morse-Kelly Set Theory]]
 - …
-- ✏️ [[../notes/The Set Theoretic Definition of Natural Numbers|The Set Theoretic Definition of Natural Numbers]]
+- ☁️ [[../notes/The Set Theoretic Definition of Natural Numbers|The Set Theoretic Definition of Natural Numbers]]
 - …
 - ✏️ [[../notes/Schröder–Bernstein Theorem|Schröder–Bernstein Theorem]]
 - …
-- ✏️ [[../notes/Ordinal Numbers|Ordinal Numbers]]
+- ☁️ [[../notes/Ordinal Numbers|Ordinal Numbers]]
 - …
-- ✏️ [[../notes/The Well-Ordering Theorem, Zorn’s Lemma and the Axiom of Choice|The Well-Ordering Theorem, Zorn’s Lemma and the Axiom of Choice]]
+- ☁️ [[../notes/The Well-Ordering Theorem, Zorn’s Lemma and the Axiom of Choice|The Well-Ordering Theorem, Zorn’s Lemma and the Axiom of Choice]]
 - …
-- [[../notes/The Redundancy of the Axiom of Union in MK|The Redundancy of the Axiom of Union in MK]]
+- [[../notes/The Redundancy of the Axiom of Union in Morse Kelly Set Theory|The Redundancy of the Axiom of Union in Morse Kelly Set Theory]]
 - …
-- ✏️ [[../notes/Infinte Classes|Infinte Classes]]
+- ☁️ [[../notes/Infinte Classes|Infinte Classes]]
 - …
-- ✏️ [[../notes/Von Neumann Universe|Von Neumann Universe]]
+- ☁️ [[../notes/Von Neumann Universe|Von Neumann Universe]]
 - …
-- ✏️ [[../notes/Limitation of size|Limitation of size]]
+- ☁️ [[../notes/Limitation of size|Limitation of size]]
 
 
 

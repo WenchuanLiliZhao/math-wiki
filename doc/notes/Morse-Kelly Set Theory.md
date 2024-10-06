@@ -169,4 +169,4 @@ For any class $C$, there exists a function $f: C \to \bigcup C$ such that $f(x) 
 
 <hr>
 
-The axiom of union in ZFC states that: if $X$ is a set, then $\bigcup X$ is a set. This is redundant in MK since it can be derived from the axiom of replacement and global choice. (See [[The Redundancy of the Axiom of Union in MK|The Redundancy of the Axiom of Union in MK]].)
+The axiom of union in ZFC states that: if $X$ is a set, then $\bigcup X$ is a set. This is redundant in MK since it can be derived from the axiom of replacement and global choice. (See [[The Redundancy of the Axiom of Union in Morse Kelly Set Theory|The Redundancy of the Axiom of Union in Morse Kelly Set Theory]].)

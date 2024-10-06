@@ -1,4 +1,4 @@
-# The Redundancy of the Axiom of Union in MK
+# The Redundancy of the Axiom of Union in Morse Kelly Set Theory
 
 **Theorem (The Axiom of Union).** If $X$ is a set, then
 $$
